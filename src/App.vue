@@ -1,12 +1,23 @@
+<style scoped>
+
+.app {
+  @apply w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto p-6;
+}
+
+</style>
+
 <template>
-  <main class="mt-12">
-    <img class="mx-auto" alt="Vue logo" src="@asset/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite + Tailwind + Vue Router" />
+  <!-- Navigation Bar -->
+  <navbar></navbar>
+  <!-- Main Container -->
+  <main class="app">
+    <home-landing></home-landing>
   </main>
 </template>
 
 <script setup>
 
-import HelloWorld from '@component/HelloWorld.vue'
+import Navbar from '@component/Navbar.vue'
+import HomeLanding from '@component/HomeLanding.vue'
 
 </script>
