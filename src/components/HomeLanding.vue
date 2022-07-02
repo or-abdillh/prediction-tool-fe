@@ -1,7 +1,7 @@
 <style scoped>
 
 .btn {
-  @apply px-3 py-2 rounded-lg text-xl w-8/12;
+  @apply px-3 py-2 md:py-3 rounded-lg text-xl w-8/12;
 }
 
 </style>
@@ -15,13 +15,13 @@
       class="md:text-center z-10">
       <strong>
         <i class="fa-brands fa-slack"></i>
-        Motorcycle Condition Prediction
+        Motorcycle Condition Prediction Tool 
       </strong>
-      <h1 class="font-expletus-sans text-4xl font-medium my-4">
-        Suspendisse tincidunt mi vel metus. <span class="text-green-500 font-bold">At, nunc Quisque.</span>Vivamus non urna in.
+      <h1 class="font-expletus-sans text-4xl font-medium mb-4 mt-6">
+        We can help you <strong class="text-green-500 font-bold">predict</strong> the condition of your motorized vehicle in a <strong class="text-green-500 font-bold">short time</strong>, is it still in good condition?
       </h1>
-      <p class="text-sm">
-        Aliquet, erat eu ultrices tincidunt, lorem mi sagittis lectus, ut feugiat pede lacus quis <span class="underline underline-offset-4 font-bold">sapien</span>.
+      <p>
+        This tool is made to help motorcycle users and of course it's <span class="underline underline-offset-4 font-bold">Free</span>.
       </p>
     </section>
     <!-- CTA -->
@@ -32,7 +32,7 @@
       </button>
       <button 
         :class="useDarkMode()"
-        class="btn border-2 font-medium">
+        class="btn border font-medium">
         <i class="fa-brands fa-github"></i>
         Github
       </button>

@@ -6,8 +6,8 @@
       :class="useDarkMode()"
       class="px-6 py-4 flex justify-between w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto">
       <h1 class="text-xl font-medium font-expletus-sans">
-        <i class="fa-solid fa-screwdriver-wrench"></i>
-        Prediction Tool
+        <i class="fa-solid fa-toolbox"></i>
+        Predict.
       </h1>
       <!-- Theme Switcher -->
       <theme-switcher></theme-switcher>
