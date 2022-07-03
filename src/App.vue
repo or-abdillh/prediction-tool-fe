@@ -1,7 +1,7 @@
 <style scoped>
 
 .app {
-  @apply w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto p-6;
+  @apply w-full md:w-11/12 lg:w-9/12 xl:w-7/12 md:mx-auto p-6;
 }
 
 </style>
@@ -12,6 +12,9 @@
   <!-- Main Container -->
   <main class="app">
     <home-landing></home-landing>
+    <section class="w-full flex flex-col md:flex-row justify-between gap-8"> 
+      <home-form></home-form>
+    </section>
   </main>
 </template>
 
@@ -21,6 +24,7 @@ import { ref, computed, watch } from 'vue'
 import { useTheme } from '@store/theme.js'
 import Navbar from '@component/Navbar.vue'
 import HomeLanding from '@component/HomeLanding.vue'
+import HomeForm from '@component/HomeForm.vue'
 
 const theme = useTheme()
 const isDark = computed(() => theme.isDark)

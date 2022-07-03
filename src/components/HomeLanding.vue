@@ -8,7 +8,7 @@
 
 <template>
   <!-- Landing -->
-  <main class="md:w-11/12 mx-auto mt-16 md:mt-12">
+  <main class="md:w-10/12 mx-auto mt-16 md:mt-12">
     <!-- Typhography -->
     <section 
       :class="useDarkMode()"

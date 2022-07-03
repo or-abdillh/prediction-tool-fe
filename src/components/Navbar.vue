@@ -1,7 +1,7 @@
 <template>
   <nav 
     :class="useDarkMode()"
-    class="w-full fixed top-0 right-0 left-0">
+    class="w-full fixed top-0 right-0 left-0 z-20">
     <main 
       :class="useDarkMode()"
       class="px-6 py-4 flex justify-between w-full md:w-10/12 lg:w-8/12 xl:w-6/12 md:mx-auto">
